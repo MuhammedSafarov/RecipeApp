@@ -22,8 +22,8 @@ const CardComponent = () => {
           >
             <Meta title={el.title} />
             <div className="card-info">
-              <Meta className='description'  description={el.rating} />
-              <StarOutlined className='icon'/>
+              <Meta className="description" description={el.rating} />
+              <StarOutlined className="icon" />
             </div>
           </Card>
         );
