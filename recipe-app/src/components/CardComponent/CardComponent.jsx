@@ -20,9 +20,10 @@ const CardComponent = () => {
             }}
             cover={<img alt="example" src={el.image} />}
           >
+            <Meta title={el.title} />
             <div className="card-info">
-              <Meta title={el.title} description={el.rating} />
-              <StarOutlined />
+              <Meta className='description'  description={el.rating} />
+              <StarOutlined className='icon'/>
             </div>
           </Card>
         );

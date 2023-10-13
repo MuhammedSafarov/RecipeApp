@@ -13,4 +13,12 @@
   .item {
     margin: 20px;
   }
+  .card-info {
+    display: flex;
+    margin-top: 7px;
+    .icon {
+      margin-left: 5px;
+      color: orange;
+    }
+  }
 }
